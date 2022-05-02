@@ -1,0 +1,21 @@
+# normal ntsc, monochrome
+sdtv_mode=0
+sdtv_disable_colorburst=1
+disable_overscan=0
+
+# audio on
+dtparam=audio=on
+
+# bt off
+dtoverlay=disable-bt
+
+# debug loader
+enable_uart=1
+uart_2ndstage=1
+
+# jtag
+enable_jtag_gpio=1
+
+# DRM VC4 V3D
+#dtoverlay=vc4-kms-v3d
+#max_framebuffers=2
