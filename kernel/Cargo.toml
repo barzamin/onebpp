@@ -1,0 +1,9 @@
+[package]
+name = "onebpp"
+version = "0.1.0"
+edition = "2021"
+publish = false
+authors = ["erin petra sofiya moon <erin@hecke.rs"]
+
+[dependencies]
+bootshim = { path = "../bootshim" }

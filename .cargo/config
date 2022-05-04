@@ -1,5 +1,5 @@
-[target.aarch64-unknown-none-softfloat]
+[target.aarch64-unknown-none]
 rustflags = ["-C", "link-arg=-Tlink.x"]
 
 [build]
-target = "aarch64-unknown-none-softfloat"
+target = "aarch64-unknown-none"

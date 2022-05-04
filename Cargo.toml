@@ -1,7 +1,5 @@
-[package]
-name = "onebpp"
-version = "0.1.0"
-edition = "2021"
-authors = ["erin petra sofiya moon <erin@hecke.rs"]
-
-[dependencies]
+[workspace]
+members = [
+    "bootshim",
+    "kernel",
+]
