@@ -3,6 +3,8 @@
 
 use core::{panic::PanicInfo, arch::asm};
 
+mod drivers;
+
 #[bootshim::entry]
 fn kmain() -> ! {
     loop {

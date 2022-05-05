@@ -7,3 +7,4 @@ authors = ["erin petra sofiya moon <erin@hecke.rs"]
 
 [dependencies]
 bootshim = { path = "../bootshim" }
+tock-registers = { git = "https://github.com/tock/tock.git#59b50204194107f9e70c27470e66dea7db5f518f" }

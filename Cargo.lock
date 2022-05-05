@@ -8,7 +8,7 @@ version = "0.1.0"
 dependencies = [
  "bootshim-macros",
  "cortex-a",
- "tock-registers",
+ "tock-registers 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -26,7 +26,7 @@ version = "7.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "27bd91f65ccd348bb2d043d98c5b34af141ecef7f102147f59bf5898f6e734ad"
 dependencies = [
- "tock-registers",
+ "tock-registers 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -34,6 +34,7 @@ name = "onebpp"
 version = "0.1.0"
 dependencies = [
  "bootshim",
+ "tock-registers 0.7.0 (git+https://github.com/tock/tock.git#59b50204194107f9e70c27470e66dea7db5f518f)",
 ]
 
 [[package]]
@@ -70,6 +71,11 @@ name = "tock-registers"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4ee8fba06c1f4d0b396ef61a54530bb6b28f0dc61c38bc8bc5a5a48161e6282e"
+
+[[package]]
+name = "tock-registers"
+version = "0.7.0"
+source = "git+https://github.com/tock/tock.git#59b50204194107f9e70c27470e66dea7db5f518f#e46fe5243ad1688cd6ff92fafc8a73a68bff1d2a"
 
 [[package]]
 name = "unicode-xid"
